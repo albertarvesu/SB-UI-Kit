@@ -2,6 +2,7 @@
   "name": "tsreact",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://albertarvesu.github.io/sbuikit",
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.dev.js --hot",
