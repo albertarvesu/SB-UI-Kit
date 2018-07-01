@@ -22,7 +22,10 @@ module.exports = {
     runtimeChunk: true
   },
   resolve: {
-    extensions: ['.js', '.jsx', '.json', '.ts', '.tsx']
+    extensions: ['.js', '.jsx', '.json', '.ts', '.tsx'],
+    alias: {
+      src: path.resolve(__dirname, 'src'),
+    }
   },
   module: {
     rules: [
